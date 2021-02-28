@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  border: solid 1px black;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  // Ukraine
+  .ukraine-1 {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+  }
+  .ukraine-2 {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+  }
+
+  // Czechia
+  .czechia-1 {
+    background-color: white;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid blue;
+    border-right: 150px solid transparent;
+  }
+  .czechia-2 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+
+    .czechia-3 {
+      width: 0;
+      height: 0;
+      border-top: 100px solid blue;
+      border-right: 150px solid transparent;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+// Japan
+.japan-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .japan-2 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(221, 39, 39);
+    border-radius: 50%;
+  }
+}
+
+// Iceland
+.iceland-flag {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 216px;
+  margin-bottom: 50px;
+  border: solid 1px black;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+
+  .iceland-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 32%;
+    height: 100%;
+
+    .iceland-left-top,
+    .iceland-left-bottom {
+      width: 87.5%;
+      height: 38.889%;
+      background-color: blue;
+    }
+
+    .iceland-left-center {
+      width: 100%;
+      height: 11.112%;
+      background-color: red;
+    }
+  }
+
+  .iceland-center {
+    width: 8%;
+    height: 100%;
+    background-color: red;
+  }
+
+  .iceland-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+
+    .iceland-right-top,
+    .iceland-right-bottom {
+      width: 93.335%;
+      height: 38.889%;
+      background-color: blue;
+    }
+
+    .iceland-right-center {
+      width: 100%;
+      height: 11.112%;
+      background-color: red;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}

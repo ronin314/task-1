@@ -1,0 +1,182 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  border: solid 1px black;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.flag .ukraine-1 {
+  width: 100%;
+  height: 50%;
+  background-color: blue;
+}
+
+.flag .ukraine-2 {
+  width: 100%;
+  height: 50%;
+  background-color: yellow;
+}
+
+.flag .czechia-1 {
+  background-color: white;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid blue;
+  border-right: 150px solid transparent;
+}
+
+.flag .czechia-2 {
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
+
+.flag .czechia-2 .czechia-3 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid blue;
+  border-right: 150px solid transparent;
+}
+
+.flag:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+.japan-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.japan-1 .japan-2 {
+  width: 120px;
+  height: 120px;
+  background-color: #dd2727;
+  border-radius: 50%;
+}
+
+.iceland-flag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 300px;
+  height: 216px;
+  margin-bottom: 50px;
+  border: solid 1px black;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.iceland-flag .iceland-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 32%;
+  height: 100%;
+}
+
+.iceland-flag .iceland-left .iceland-left-top,
+.iceland-flag .iceland-left .iceland-left-bottom {
+  width: 87.5%;
+  height: 38.889%;
+  background-color: blue;
+}
+
+.iceland-flag .iceland-left .iceland-left-center {
+  width: 100%;
+  height: 11.112%;
+  background-color: red;
+}
+
+.iceland-flag .iceland-center {
+  width: 8%;
+  height: 100%;
+  background-color: red;
+}
+
+.iceland-flag .iceland-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  height: 100%;
+}
+
+.iceland-flag .iceland-right .iceland-right-top,
+.iceland-flag .iceland-right .iceland-right-bottom {
+  width: 93.335%;
+  height: 38.889%;
+  background-color: blue;
+}
+
+.iceland-flag .iceland-right .iceland-right-center {
+  width: 100%;
+  height: 11.112%;
+  background-color: red;
+}
+
+.iceland-flag:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
